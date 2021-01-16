@@ -11,17 +11,17 @@
         <!-- css -->
         <style>
             /* uncomment to change default font */
-            html {
-                font-family: 'Courier New', 'Times New Roman', serif;
-            } */
+           
+                font-family: comic-sans
+            
 
             img {
-                width: 512px; /* set image width */
+                width: 600px; /* set image width */
             }
 
             #caption {
                 display: none; /* start with caption hidden */
-                font-style: normal;
+                font-style: normal
             }
         </style>
     </head>
@@ -30,21 +30,21 @@
     <body>
         <!-- some text and links -->
         <p>
-            <a href="https://sagradafamilia.org/en/history-of-the-temple">
+            <a href="https://www.tripsavvy.com/antoni-gaudis-sagrada-familia-in-barcelona-1643435">Sagrada Familia Information</a>
         </p>
 
 
 
         
         
-        <!-- an image -->
+        <!-- an image -->    
         <img id="myImage"
              alt="Sagrada Familia"
-             src="https://sagradafamilia.org/en/history-of-the-temple">
+             src="https://www.tripsavvy.com/antoni-gaudis-sagrada-familia-in-barcelona-1643435">
 
         <!-- a caption -->
         <p id="caption">
-            Antonio Gaudi
+            The Sagrada Familia church is Catalan architect Antoni Gaudí's greatest masterpiece, but he never lived to see his most legendary creation come fully to life. In fact, none of us have (yet). The church is still under construction, with completion scheduled for 2026—a century after Gaudí's death. 
         </p>
 
         <!-- javascript -->
@@ -55,7 +55,6 @@
             // listen to events related to the image
             img.addEventListener('mouseover', mouseOver, false)
             img.addEventListener('mouseout', mouseOut, false)
-            
 
             // define what happens when there is a mouse over event
             function mouseOver() {
